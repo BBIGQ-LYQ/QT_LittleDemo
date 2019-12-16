@@ -21,6 +21,7 @@ void MainWindow::on_ENTER_clicked()
     QString msg;
     msg.sprintf("touch time is : %d ",num);
 
+
     ui->RESULT->setText(msg);
 
 }
